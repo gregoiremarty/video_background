@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  background: url('media/background.png') no-repeat;
+  background-size: cover;
+}
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background: url('media/background.png') no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
+}
+
+.stopfade {
+   opacity: .5;
+}
+
+/* within the feed CSS, customize the area where your content will be displayed */
+.feed {
+
+}
+
+/* here is where you custom your site title & subtitle */
+#titles {
+  display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+#site-title {
+  font-size: 16vmin;
+  text-transform: uppercase;
+  letter-spacing: 1vw;
+  color: yellow;
+  line-height: 0;
+}
+
+#site-subtitle {
+  font-size: 3vmin;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 0.58vw;
+  line-height: 0;
+  color: #fff;
+}
+
+/* mobile and small screen display // responsive web */
+@media screen and (max-width: 500px) {
+  div{width:70%;}
+}
+
+@media screen and (max-device-width: 800px) {
+  #bgvid { display: none; }
+}
