@@ -2,6 +2,8 @@
 
 Here is sample / template that allows you to get a video in background of your web page / site.
 
+[Click here to access the demo](https://gregoiremarty.github.io/video_background/).
+
 ## HOW TO USE
 ##### VIDEO
 * get your video url in the *index.html* file
